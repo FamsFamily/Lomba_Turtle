@@ -55,6 +55,7 @@ pn = turtle.Turtle()
 pn.left(90)
 pn.shape("turtle")
 pn.up()
+pn.speed(1)
 for i in range(jumlah_pn):
     r = random.randint(0,255)
     b = random.randint(0,255)
