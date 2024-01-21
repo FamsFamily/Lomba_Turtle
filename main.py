@@ -51,17 +51,18 @@ for a in range(at):
     v1[a].goto(-290,195-30*a)
 
 jumlah_pn = random.randint(1,20)
+pn = turtle.Turtle()
+pn.left(90)
+pn.shape("turtle")
+pn.up()
 for i in range(jumlah_pn):
     r = random.randint(0,255)
     b = random.randint(0,255)
     g = random.randint(0,255)
-    pn = turtle.Turtle()
-    pn.left(90)
-    pn.shape("turtle")
     pn.color(r, b, g)
     pn.pencolor("black")
-    pn.up()
     pn.goto(-290+20*(i+1),-170)
+    pn.stamp()
 
 color2 = ["Merah!", "Biru!", "Kuning!", "Hijau!", "Jingga!", "Ungu!", "Merah Muda!", "Putih!", "Hitam!", "Cokelat!", "Krem!", "Abu-abu!"]
 v2 = []
